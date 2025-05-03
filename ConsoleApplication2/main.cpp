@@ -9,6 +9,8 @@ using namespace std;
 
 int main() {
 
+    cout << "hello" << endl;
+
    /* Задание 1
         Создать класс Overcoat(верхняя одежда)
 
@@ -78,6 +80,7 @@ int main() {
     sortDescendingByPrice(flats, n);
 
     cout << "\nFlats sorted by descending price:\n";
+   
     for (int i = 0; i < n; ++i)
         flats[i].print();
 
